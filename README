@@ -1,0 +1,18 @@
+This is a very simple file system implementation.
+
+#Instructions to use the code
+
+make
+
+This generates a file rkfs.o. Load the module as root using
+insmod real_sfs_final.ko
+
+Mount the file system using
+mount -t real_sfs none /mnt/sfs_mount
+
+Unmount using
+umount /mnt/sfs_mount
+
+Unload the module using
+rmmod real_sfs
+
